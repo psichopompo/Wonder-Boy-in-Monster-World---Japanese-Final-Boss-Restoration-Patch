@@ -112,5 +112,5 @@ SHA-1   6418d68ea27e2fa21a81fb8911146c44e38eba1a
 ## Credits
 
 * Patch and testing: **Psicopompo**.
-* Spanish ROM translation: **Psicopompo**.
+* Spanish ROM translation: **Jackic**.
 * *Wonder Boy in Monster World* is © **Sega** and **Westone**. This patch contains no copyrighted files, only instructions for modifying your own copy.
