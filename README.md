@@ -69,38 +69,30 @@ With Flips, if you apply the wrong version of the patch (for example, the wester
 
 ## Checksums
 
-**Unpatched western ROM** (use this with the western patch)
+**Unpatched western ROM** (both patches are applied to this one — it is the
+official dataset dump, the one in circulation)
 
 ```
-Wonder Boy in Monster World (UE).bin          786,432 bytes
-MD5     1391725cc50671be68fc9dd405e19ac8
-CRC32   93153413
-SHA-1   481c0a3a61607cefc642992cd3faa18974834c94
+Wonder Boy in Monster World (USA, Europe).md     786,432 bytes
+MD5     edba0bdb192d47712edbe0097f885f40
+CRC32   1592F5B0
+SHA-1   87a968f773c7e807e647c0737132457b06b78276
 ```
 
-**Unpatched Spanish ROM** (use this with the Spanish patch)
+**Result with the boss fix patch applied** (game stays in English)
 
 ```
-Wonder Boy in Monster World (es).bin          786,432 bytes
-MD5     4cd028dfcb2a4602ee6f6f3c13a28092
-CRC32   4EC0A307
-SHA-1   09bc1f04fa163459b780de65e4a55060791ed7b3
+MD5     3121a3a2dfe5cd66c75bfea6f8d27f36
+CRC32   05C7285D
+SHA-1   515c6ab3d427f60bf85add23f60f7ba924d9a45a
 ```
 
-**Result with the western patch applied**
+**Result with the all-in-one patch applied** (boss fix + Spanish translation)
 
 ```
-MD5     fa6d35457c9f3418be588c93379d3ff3
-CRC32   8340E9FE
-SHA-1   99f601d285dcfb7e0077a72bea59ae889954ea01
-```
-
-**Result with the Spanish patch applied**
-
-```
-MD5     a8c317d6fb7c70d3c53acb7328c830a7
-CRC32   5E957EEA
-SHA-1   6418d68ea27e2fa21a81fb8911146c44e38eba1a
+MD5     598d7ca135b3c003e401cd7fd1f80f2f
+CRC32   D812BF49
+SHA-1   5bee68ec8ad15ecfa4ea17e72f0c28960d196fdd
 ```
 
 ## Notes
