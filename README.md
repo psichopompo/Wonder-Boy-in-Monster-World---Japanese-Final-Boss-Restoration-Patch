@@ -1,6 +1,6 @@
 <img width="960" height="179" alt="Wonder_Boy_in_Monster_World_Logo" src="https://github.com/user-attachments/assets/b7791c86-4401-4da5-b461-65f044178340" />
 
-# Wonder Boy V (Boss Fix) v1.3
+# Wonder Boy V (Boss Fix) v1.4
 
 **Final boss patch for *Wonder Boy in Monster World* (Mega Drive / Genesis)**
 by **Psicopompo**.
@@ -32,7 +32,8 @@ The patch went through several versions because each fix uncovered something els
 * **v1.0** — the belt stopped moving visually, but still pushed the player.
 * **v1.1** — the pushing was fixed during the fight, but it still occurred outside the fight.
 * **v1.2** — the pushing was fixed at its source. However, the saw, while no longer being drawn, still existed and could still hit the player.
-* **v1.3** — current version: the saw is properly disabled, and the belt neither moves nor pushes. **Use this version.**
+* **v1.3** — the saw was properly disabled, and the belt neither moved nor pushed. However, stopping that belt also stopped the conveyor belts in the pyramid, which run on the same mechanism.
+* **v1.4** — current version: the fix now acts only inside the final boss room, so the pyramid belts push again. **Use this version.**
 
 ## Files
 
@@ -41,15 +42,15 @@ Each version of the game has its own patch. There are two ROM versions: the orig
 **Western ROM (UE)**
 
 ```
-Wonder Boy V (Boss Fix) v1.3 (by Psicopompo).ips
-Wonder Boy V (Boss Fix) v1.3 (by Psicopompo).bps
+Wonder Boy V (Boss Fix) v1.4 (by Psicopompo).ips
+Wonder Boy V (Boss Fix) v1.4 (by Psicopompo).bps
 ```
 
 **Spanish ROM**
 
 ```
-Wonder Boy V (Boss Fix) (ES) v1.3 (by Psicopompo).ips
-Wonder Boy V (Boss Fix) (ES) v1.3 (by Psicopompo).bps
+Wonder Boy V (Boss Fix) (ES) v1.4 (by Psicopompo).ips
+Wonder Boy V (Boss Fix) (ES) v1.4 (by Psicopompo).bps
 ```
 
 **IPS or BPS — which one should I use?** The **BPS** is recommended: it checks that the source ROM is the correct one and warns you if it is not. **IPS** does not perform any source check, but works equally well with the two ROM versions.
@@ -73,26 +74,32 @@ With Flips, if you apply the wrong version of the patch (for example, the wester
 official dataset dump, the one in circulation)
 
 ```
+
 Wonder Boy in Monster World (USA, Europe).md     786,432 bytes
 MD5     edba0bdb192d47712edbe0097f885f40
 CRC32   1592F5B0
 SHA-1   87a968f773c7e807e647c0737132457b06b78276
+
 ```
 
 **Result with the boss fix patch applied** (game stays in English)
 
 ```
-MD5     3121a3a2dfe5cd66c75bfea6f8d27f36
-CRC32   05C7285D
-SHA-1   515c6ab3d427f60bf85add23f60f7ba924d9a45a
+
+MD5     f1a79c5f664c9ad6de70511a027b2a4c
+CRC32   0C7C9A01
+SHA-1   188802365153809553ce9ebdb13e06659d288bbb
+
 ```
 
 **Result with the all-in-one patch applied** (boss fix + Spanish translation)
 
 ```
-MD5     598d7ca135b3c003e401cd7fd1f80f2f
-CRC32   D812BF49
-SHA-1   5bee68ec8ad15ecfa4ea17e72f0c28960d196fdd
+
+MD5     2bf2310a94d2d4b2e73a966ba55110a0
+CRC32   CC858F6A
+SHA-1   cff7a6eb23cfd8477ade4f4628c67fe392ceb453
+
 ```
 
 ## Notes
